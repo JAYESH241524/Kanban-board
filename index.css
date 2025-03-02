@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#mainBoard{
+    display:flex;
+    
+}
+#mainBoard1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height:100vh;
+    background-color: rgb(19, 130, 240);
+    align-items: start;
+    padding-left: 10px;
+}
+#mainBoard2{
+    width: 75%;
+    height:100vh;
+    background-color: whitesmoke;
+}
+#b1{
+    width: 20rem;
+    height: 2.5rem; 
+    font-size: 1.5rem;
+    background-color: #06aa7b;
+    border: none;
+    border-radius:7px ;
+    margin-top:10px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+#mainBoard2>p{
+    color: gray;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+#b1:hover{
+    background-color: #08936c;
+    cursor: pointer;
+}
