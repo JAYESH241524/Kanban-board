@@ -13,14 +13,28 @@
         <div id="mainBoard1">
             <div id="boardButton">
                 <p><h1 style="color: aliceblue; font-size: 3rem;">Boards</h1></p>
-                <button id="b1">Create Board</button>
+                <button id="b1" onclick="createBoard()">Create Board</button>
+            </div>
+            <div id="boardCol">
+
             </div>
         </div>
         <div id="mainBoard2">
             <p>no board selected.Create or select a board</p>
+        
         </div>
-        </div>
-
     </div>
+    <div id="modalLayOut" class="modalLayOut">
+        <div id="modalContent" class="modalContent">
+                <h3 class="modalTitle"></h3>
+                <input type="text" id="modalInput" class="modalInput">
+                <div class="error"></div>
+                <div class="modalButtons">
+                <button class="saveBtn">Save</button>
+                <button class="cancelBtn">Cancel</button>
+                </div>
+        </div>
+    </div> 
+    <script src="/index.js"></script>   
 </body>
 </html>

@@ -41,3 +41,52 @@
     background-color: #08936c;
     cursor: pointer;
 }
+.createBoard{
+    position: absolute;
+}
+.modalLayOut{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(0,0,0,0.5);
+}
+.modalContent{
+    width: 20%;
+    height: 30%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    border-radius: 20px;
+    gap: 15px;
+}
+.modalTitle{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    margin-left: 10px;
+    justify-content: start;
+}
+.modalInput{
+     height: 1.6rem;
+     width: 80%;
+     margin-left: 10px;
+}
+.modalButtons{
+    height: 1.4rem;
+    width: 25%;
+    margin-left: 50%;
+    display: flex;
+    gap: 5px;
+}
+.error{
+    font-size: small;
+    color: red;
+}
